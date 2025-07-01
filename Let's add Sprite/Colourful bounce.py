@@ -76,7 +76,7 @@ all_sprites_list.add(sp1)
 screen = pygame.display.set_mode((500, 400))
 # Set the window title
 pygame.display.set_caption("Colorful Bounce")
-
+# Set the initial background color
 bg_color = BLUE
 
 screen.fill(bg_color)
